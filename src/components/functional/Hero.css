@@ -1,0 +1,41 @@
+.banner-section-bg-container {
+  background-image: url('/public/images/background.png'); /* Path relative to the public folder */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px; /* Adjust padding as needed */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Ensures text is readable on background image */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.banner-heading {
+  font-size: 2.5rem; /* Adjust font size as needed */
+}
+
+.cambloo-highlight {
+  color: white; /* Highlight color */
+}
+
+.banner-caption {
+  font-size: 1.2rem; /* Adjust font size as needed */
+}
+
+.custom-button {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; /* Adds rounded corners */
+}
+
+.custom-button:hover {
+  background-color: #0056b3; /* Darker blue for hover effect */
+}

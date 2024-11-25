@@ -1,0 +1,74 @@
+/* src/components/classComponents/WhyChooseUs.css */
+.why-choose-us-container {
+  padding: 60px 20px;
+  background-color: #f8f9fa; /* Light grey background */
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #6c757d;
+}
+
+.features-container {
+  padding: 60px 20px;
+}
+
+.feature-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.feature-item {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.feature-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  color: #555;
+}
+
+@media (min-width: 768px) {
+  .features-container {
+    padding: 80px 20px;
+  }
+
+  .feature-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .feature-item {
+    min-width: 280px;
+  }
+
+  .feature-icon {
+    font-size: 3rem;
+  }
+
+  .feature-title {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,43 @@
+.how-it-works-container {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.carousel-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.step-image img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.step-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.step-description {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Custom background color for arrows */
+  border-radius: 50%; /* Make arrows circular */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Reduce width of controls */
+}

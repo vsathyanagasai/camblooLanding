@@ -1,0 +1,39 @@
+/* src/components/classComponents/Testimonials.css */
+.testimonials-container {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.testimonial-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial-quote {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.testimonial-name {
+  font-size: 1rem;
+  color: #007bff;
+  font-weight: bold;
+}

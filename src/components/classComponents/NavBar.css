@@ -1,0 +1,63 @@
+/* src/components/classComponents/NavBar.css */
+
+.navbar {
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 1000; /* Ensures it stays on top of other elements */
+}
+
+.Cambloo-logo {
+  height: 40px; /* Adjust size as needed */
+  transition: height 0.3s ease;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between items */
+}
+
+.nav-link {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar-toggler {
+    border: none;
+    background: transparent;
+  }
+
+  .nav-link {
+    font-size: 1rem; /* Adjust size for smaller screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin-left: auto; /* Pushes the nav items to the right */
+  }
+
+  .Cambloo-logo {
+    height: 60px; /* Larger size for larger screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  .Cambloo-logo {
+    height: 70px; /* Even larger size for very large screens */
+  }
+}

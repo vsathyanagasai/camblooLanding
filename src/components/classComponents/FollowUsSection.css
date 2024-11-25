@@ -1,0 +1,40 @@
+.follow-us-section {
+  background-color: #ffffff; /* White background for the section */
+  text-align: center;
+  padding-top: 5rem; /* Adjust padding as needed */
+  padding-bottom: 5rem; /* Adjust padding as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow for depth */
+  border-radius: 8px; /* Optional: Rounded corners for the section */
+}
+
+.follow-us-section-heading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.follow-us-icon-container {
+  display: inline-block; /* Fit icon container to content width */
+  margin: 0 1rem;
+}
+
+.follow-us-icon-container .icon {
+  font-size: 2rem; /* Adjust size as needed */
+  color: #333; /* Icon color */
+  transition: color 0.3s ease;
+}
+
+.follow-us-icon-container .icon:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Add responsiveness */
+@media (max-width: 576px) {
+  .follow-us-icon-container {
+    margin: 0 0.5rem;
+  }
+
+  .follow-us-section-heading {
+    font-size: 1.5rem;
+  }
+}
